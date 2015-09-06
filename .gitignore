@@ -1,0 +1,6 @@
+/modules
+/build
+/.tmp
+/.librarian
+*.swp
+.DS_Store
