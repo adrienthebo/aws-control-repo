@@ -1,26 +1,29 @@
 class pe_role::master {
-  require pe_role::master::prereq
+  include ntp
+  include tse_admins
+
 
   node_group { 'Linux Servers':
     ensure               => 'present',
     environment          => 'production',
-    id                   => '35750923-40b7-44a3-8829-e1d22d093aee',
     override_environment => 'false',
     parent               => 'All Nodes',
-    rule                 => ['and', ['not', ['=', ['fact', 'clientcert'], 'ip-10-98-10-38.us-west-2.compute.internal']], ['=', ['fact', 'kernel'], 'Linux']],
+    rule                 => ['and', ['not', ['=', ['fact', 'clientcert'], "${fqdn}"]], ['=', ['fact', 'kernel'], 'Linux']],
   }
 
-  node_group { 'Linux Servers':
+  node_group { 'Tomcat':
     ensure               => 'present',
+    classes              => {'ntp' => {}, 'tomcatdemo' => {}, 'tse_admins' => {}},
     environment          => 'production',
-    id                   => '35750923-40b7-44a3-8829-e1d22d093aee',
     override_environment => 'false',
-    parent               => 'All Nodes',
-    rule                 => ['and', ['not', ['=', ['fact', 'clientcert'], 'ip-10-98-10-38.us-west-2.compute.internal']], ['=', ['fact', 'kernel'], 'Linux']],
+    parent               => 'Linux Servers',
+    rule                 => ['and', ['=', ['fact', 'role'], 'tomcat']],
+    require              => Node_group['Linux Servers']
   }
 
   node_group { 'Puppet Master':
     ensure               => 'present',
+    classes              => {'ntp' => {}, 'tse_admins' => {}},
     environment          => 'production',
     override_environment => 'false',
     parent               => 'All Nodes',

@@ -16,3 +16,5 @@ mod 'tomcatdemo',
   :git => 'https://github.com/mrzarquon/tse-module-tomcatdemo'
 mod 'tse_admins',
   :git => 'https://github.com/mrzarquon/puppet-tse_admins'
+mod 'ec2tags',
+  :git => 'https://github.com/mrzarquon/puppet-ec2tags'
