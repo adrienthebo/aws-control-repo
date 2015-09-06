@@ -8,6 +8,8 @@ mod 'puppetlabs/concat'
 mod 'puppetlabs/stdlib'
 mod 'nanliu/staging'
 
+mod 'node_manager',
+  :git => 'https://github.com/puppetlabs/prosvcs-node_manager'
 mod 'awsdemo',
   :git => 'https://github.com/mrzarquon/awsdemo'
 mod 'tomcatdemo',
