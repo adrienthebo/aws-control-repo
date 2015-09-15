@@ -7,6 +7,7 @@ mod 'puppetlabs/ntp'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/registry'
 mod 'puppetlabs/stdlib'
+mod 'puppet/windows_firewall'
 mod 'nanliu/staging'
 mod 'chocolatey/chocolatey'
 
