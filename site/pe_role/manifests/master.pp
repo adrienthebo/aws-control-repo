@@ -1,7 +1,5 @@
 class pe_role::master {
   include ntp
-  include tse_admins
-
 
   node_group { 'Linux Servers':
     ensure               => 'present',
