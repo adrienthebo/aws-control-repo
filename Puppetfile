@@ -7,6 +7,7 @@ mod 'puppetlabs/ntp'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/stdlib'
 mod 'nanliu/staging'
+mod 'chocolatey/chocolatey'
 
 mod 'tse_winapache',
   :git => 'https://github.com/mrzarquon/puppet-tse_winapache.git'
