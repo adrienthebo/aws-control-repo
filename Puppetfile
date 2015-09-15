@@ -8,6 +8,8 @@ mod 'puppetlabs/concat'
 mod 'puppetlabs/stdlib'
 mod 'nanliu/staging'
 
+mod 'tse_winapache',
+  :git => 'https://github.com/mrzarquon/puppet-tse_winapache.git'
 mod 'tse_windows',
   :git => 'https://github.com/mrzarquon/puppet-tse_windows.git'
 mod 'node_manager',
