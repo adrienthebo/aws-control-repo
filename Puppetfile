@@ -8,6 +8,8 @@ mod 'puppetlabs/concat'
 mod 'puppetlabs/registry'
 mod 'puppetlabs/stdlib'
 mod 'puppet/windows_firewall'
+mod 'puppetlabs/powershell'
+mod 'badgerious/windows_env'
 mod 'nanliu/staging'
 mod 'chocolatey/chocolatey'
 
