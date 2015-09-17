@@ -16,7 +16,7 @@ mod 'chocolatey/chocolatey'
 mod 'tse_winapache',
   :git => 'https://github.com/mrzarquon/puppet-tse_winapache.git'
 mod 'tse_windows',
-  :git => 'https://github.com/mrzarquon/puppet-tse_windows.git'
+  :git => 'https://github.com/puppetlabs/tse-module-tse_windows.git'
 mod 'node_manager',
   :git => 'https://github.com/puppetlabs/prosvcs-node_manager.git'
 mod 'awsdemo',
@@ -24,6 +24,6 @@ mod 'awsdemo',
 mod 'tomcatdemo',
   :git => 'https://github.com/mrzarquon/tse-module-tomcatdemo.git'
 mod 'tse_admins',
-  :git => 'https://github.com/mrzarquon/puppet-tse_admins.git'
+  :git => 'https://github.com/puppetlabs/tse-module-tse_admins.git'
 mod 'ec2tags',
   :git => 'https://github.com/mrzarquon/puppet-ec2tags.git'
