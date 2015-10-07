@@ -3,6 +3,7 @@
 mod 'puppetlabs/java', '1.4.1'
 mod 'puppetlabs/tomcat', '1.3.2'
 mod 'puppetlabs/aws'
+mod 'puppetlabs/apache'
 mod 'puppetlabs/ntp'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/registry'
