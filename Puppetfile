@@ -19,7 +19,8 @@ mod 'stahnma/epel'
 
 mod 'memcached',
   :git => 'https://github.com/saz/puppet-memcached.git'
-
+mod 'tse_myapplication',
+  :git => 'https://github.com/mrzarquon/tse-module-tse_myapplication.git'
 mod 'tse_graphite',
   :git => 'https://github.com/mrzarquon/tse-module-tse_graphite.git'
 mod 'tse_winapache',
