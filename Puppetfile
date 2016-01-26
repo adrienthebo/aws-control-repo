@@ -15,6 +15,7 @@ mod 'badgerious/windows_env'
 mod 'nanliu/staging'
 mod 'chocolatey/chocolatey'
 mod 'dwerder/graphite'
+mod 'stahnma/epel'
 
 mod 'memcached',
   :git => 'https://github.com/saz/puppet-memcached.git'
