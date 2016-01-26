@@ -4,6 +4,7 @@ mod 'puppetlabs/java', '1.4.2'
 mod 'puppetlabs/tomcat', '1.3.2'
 mod 'puppetlabs/aws'
 mod 'puppetlabs/apache'
+mod 'puppetlabs/mysql'
 mod 'puppetlabs/ntp'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/registry'
@@ -13,7 +14,13 @@ mod 'puppetlabs/powershell'
 mod 'badgerious/windows_env'
 mod 'nanliu/staging'
 mod 'chocolatey/chocolatey'
+mod 'dwerder/graphite'
 
+mod 'memcached',
+  :git => 'https://github.com/saz/puppet-memcached.git'
+
+mod 'tse_graphite',
+  :git => 'https://github.com/mrzarquon/tse-module-tse_graphite.git'
 mod 'tse_winapache',
   :git => 'https://github.com/mrzarquon/puppet-tse_winapache.git'
 mod 'tse_windows',
