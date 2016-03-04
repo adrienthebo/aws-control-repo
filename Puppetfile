@@ -37,3 +37,7 @@ mod 'tse_admins',
   :git => 'https://github.com/puppetlabs/tse-module-tse_admins.git'
 mod 'ec2tags',
   :git => 'https://github.com/mrzarquon/puppet-ec2tags.git'
+mod 'exampleawsgraph',
+  :git => 'https://github.com/mrzarquon/exampleawsgraph.git'
+mod 'awsenv',
+  :git => 'https://github.com/puppetlabs/tse-module-awsenv.git'
