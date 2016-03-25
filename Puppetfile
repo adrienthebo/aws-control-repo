@@ -41,3 +41,5 @@ mod 'exampleawsgraph',
   :git => 'https://github.com/mrzarquon/exampleawsgraph.git'
 mod 'awsenv',
   :git => 'https://github.com/puppetlabs/tse-module-awsenv.git'
+
+mod 'cloudpassage', git: 'git@github.com:puppetlabs/puppet-cloudpassage'
