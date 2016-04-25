@@ -7,3 +7,8 @@ class {'awsenv':
   department         => 'eng-sec',
   master_iam_profile => 'puppetlabs_aws_provisioner',
 }
+
+awsenv::system { 'ubuntu1404-01':
+  pp_role       => 'webserver',
+  platform_name => 'ubuntu1404'
+}
