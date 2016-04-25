@@ -24,6 +24,8 @@ define awsenv::system(
     security_groups => [
       $agents_sg_name,
       $crossconnect_sq_name],
-    subnet          => $agent_subnet,
+    subnet         => $agent_subnet,
+    pp_role        => $pp_role,
+    platform_name => $platform_name,
   }
 }

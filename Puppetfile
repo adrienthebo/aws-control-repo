@@ -39,7 +39,6 @@ mod 'ec2tags',
   :git => 'https://github.com/mrzarquon/puppet-ec2tags.git'
 mod 'exampleawsgraph',
   :git => 'https://github.com/mrzarquon/exampleawsgraph.git'
-mod 'awsenv',
-  :git => 'https://github.com/puppetlabs/tse-module-awsenv.git'
 
 mod 'cloudpassage', git: 'git@github.com:puppetlabs/puppet-cloudpassage'
+#mod 'inquire', git: 'https://github.com/adrienthebo/puppet-inquire', ref: 'ec2'
