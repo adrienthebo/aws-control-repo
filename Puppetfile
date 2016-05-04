@@ -41,4 +41,6 @@ mod 'exampleawsgraph',
   :git => 'https://github.com/mrzarquon/exampleawsgraph.git'
 
 mod 'cloudpassage', git: 'git@github.com:puppetlabs/puppet-cloudpassage', ref: 'catalog-check'
+mod 'puppetlabs/apt'
+
 #mod 'inquire', git: 'https://github.com/adrienthebo/puppet-inquire', ref: 'ec2'
